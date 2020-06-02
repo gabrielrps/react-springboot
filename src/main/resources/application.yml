@@ -1,0 +1,10 @@
+server:
+  servlet:
+    context-path: /api
+
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://0.0.0.0:5432/reactspringboot
+    username: postgres
+    password: root
+    pool-size: 30
